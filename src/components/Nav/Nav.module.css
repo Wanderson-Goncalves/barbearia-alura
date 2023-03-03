@@ -1,0 +1,30 @@
+
+nav {
+	position: absolute;
+	right: 0;
+	top: 110px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+@media screen and (max-width: 480px) {
+	
+	nav {
+		position: static;
+	}
+}

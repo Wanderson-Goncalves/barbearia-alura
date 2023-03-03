@@ -1,0 +1,19 @@
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa {
+	margin: 0 auto;
+	position: relative;
+	width: 940px;
+}
+
+@media screen and (max-width: 480px) {
+
+
+	h1 {
+		text-align: center;
+	}
+
+}

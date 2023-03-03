@@ -1,0 +1,39 @@
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.missao {
+    font-size: 20px
+}
+
+@media screen and (max-width: 480px) {
+
+
+    .principal {
+        width: auto;
+    }
+
+
+}
