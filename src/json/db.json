@@ -1,0 +1,26 @@
+{
+    "produtos": [
+    {
+        "id":1,
+        "titulo":"Cabelo",
+        "imagem": "https://i.postimg.cc/pXFq21NG/cabelo.jpg",
+        "descricao":"Na tesoura ou máquina, como o cliente preferir",
+        "valor":"R$ 25,00"
+    },
+    {
+        "id":2,
+        "titulo":"Barba",
+        "imagem": "https://i.postimg.cc/y8fPnq0N/barba.jpg",
+        "descricao":"Corte e desenho profissional de barba",
+        "valor":"R$ 18,00"
+    },
+    {
+        "id":3,
+        "titulo":"Cabelo + Barba",
+        "imagem": "https://i.postimg.cc/rFwRjDjS/cabelo-barba.jpg",
+        "descricao":"Pacote completo de cabelo e barba",
+        "valor":"R$ 35,00"
+    }
+    
+    ]
+}

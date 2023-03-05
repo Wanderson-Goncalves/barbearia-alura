@@ -1,7 +1,6 @@
-import Banner from 'components/Banner/banner';
 import Footer from 'components/Footer/footer';
 import Header from 'components/Header/header';
-import Home from 'pages/Home/home';
+import Product from 'pages/Product/product';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
@@ -12,9 +11,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <>
-      <Header />
-      <Banner />
-      <Home />
+      <Header />      
+      <Product />
       <Footer />
     </>
   </React.StrictMode>
