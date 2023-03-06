@@ -9,13 +9,13 @@ export default function Home() {
     return (
         <>
             <Banner />
-            <main>
+            
                 <Sobre />
                 <Mapa />
                 <Beneficios />
                 <Video />
 
-            </main>
+           
         </>
     );
 }

@@ -1,11 +1,13 @@
-form {
+.formulario {
 	margin: 40px 16px;
+	padding: 16px;
 }
 
-form label, form legend {
+.formulario label, .formulario legend {
 	display:block;
 	font-size: 20px;
 	margin: 0 0 10px;
+
 }
 
 .input__padrao {
@@ -34,7 +36,7 @@ form label, form legend {
 
 .enviar:hover {
 	background: darkorange;
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 table {

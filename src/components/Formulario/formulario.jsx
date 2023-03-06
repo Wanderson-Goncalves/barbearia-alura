@@ -3,7 +3,7 @@ import styles from './Formulario.module.css'
 
 export default function Formulario() {
     return (
-        <form>
+        <form className={styles.formulario}>
             <label for="nomesobrenome">Nome e sobrenome</label>
             <input type="text" id="nomesobrenome" className={styles.input__padrao} required />
 

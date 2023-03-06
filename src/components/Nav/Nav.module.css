@@ -10,7 +10,7 @@ nav li {
 	margin: 0 0 0 15px;
 }
 
-nav a {
+.link {
     color: #000000;
 	font-weight: bold;
 	font-size: 22px;
@@ -18,7 +18,7 @@ nav a {
 	text-transform: uppercase;
 }
 
-nav a:hover {
+.link:hover {
 	color: #C78C19;
 	text-decoration: underline;
 }
