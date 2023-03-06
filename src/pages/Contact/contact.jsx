@@ -1,15 +1,13 @@
-import Footer from 'components/Footer/footer';
-import Header from 'components/Header/header';
+
+import Formulario from 'components/Formulario/formulario';
 import React from 'react';
 
 export default function Contact() {
   return (
-      <>
-          <Header />
-          <main>
-              
-          </main>
-          <Footer />
-    </>
-  )
+    <main>
+      <Formulario />
+
+    </main>
+
+  );
 }

@@ -5,7 +5,7 @@ import CardProduto from 'components/CardProduto/cardProduto';
 
 export default function Produtos() {
     return (
-        <section className={styles.produtos}>
+        <ul className={styles.produtos}>
           
 
             {products.map((produto) => {
@@ -13,7 +13,7 @@ export default function Produtos() {
             })} 
             
 
-        </section>
+        </ul>
 
     );
 }

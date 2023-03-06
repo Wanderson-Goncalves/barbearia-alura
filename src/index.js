@@ -1,6 +1,6 @@
 import Footer from 'components/Footer/footer';
 import Header from 'components/Header/header';
-import Product from 'pages/Product/product';
+import Contact from 'pages/Contact/contact';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
@@ -12,7 +12,7 @@ root.render(
   <React.StrictMode>
     <>
       <Header />      
-      <Product />
+      <Contact />
       <Footer />
     </>
   </React.StrictMode>
