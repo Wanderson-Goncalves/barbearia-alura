@@ -27,11 +27,11 @@ h2 {
     font-weight: bold;
 }
 
-.card__descricao {
+.descricao {
     font-size: 18px;
 }
 
-.card__preco {
+.preco {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;

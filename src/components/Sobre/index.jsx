@@ -1,4 +1,4 @@
-import TituloPrincipal from 'components/TituloPrincipal/tituloPrincipal';
+import TituloPrincipal from 'components/TituloPrincipal';
 import React from 'react';
 import styles from './Sobre.module.css';
 import Utensilios from './utensilios.jpg';

@@ -7,7 +7,7 @@ export default function Nav() {
         <nav>
             <ul className={styles}>
                 <li><Link className={styles.link} to='/'>Home</Link></li>
-                <li><Link className={styles.link} to='/produto'>Produto</Link></li>
+                <li><Link className={styles.link} to='/produtos'>Produto</Link></li>
                 <li><Link className={styles.link} to='/contato'>Contato</Link></li>
             </ul>
         </nav>

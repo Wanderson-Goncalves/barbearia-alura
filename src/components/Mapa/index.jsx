@@ -1,5 +1,5 @@
 import React from 'react';
-import TituloPrincipal from 'components/TituloPrincipal/tituloPrincipal';
+import TituloPrincipal from 'components/TituloPrincipal';
 import styles from './Mapa.module.css';
 
 export default function Mapa() {

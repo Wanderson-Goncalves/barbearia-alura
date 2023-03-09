@@ -1,8 +1,8 @@
-import Banner from 'components/Banner/banner';
-import Beneficios from 'components/Beneficios/beneficios';
-import Mapa from 'components/Mapa/mapa';
-import Sobre from 'components/Sobre/sobre';
-import Video from 'components/Video/video';
+import Banner from 'components/Banner';
+import Beneficios from 'components/Beneficios';
+import Mapa from 'components/Mapa';
+import Sobre from 'components/Sobre';
+import Video from 'components/Video';
 import React from 'react';
 
 export default function Home() {

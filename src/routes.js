@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from 'pages/Home/home';
-import Product from 'pages/Product/product';
-import Contact from 'pages/Contact/contact';
-import PaginaBase from 'pages/PaginaBase/paginaBase';
+import Home from 'pages/Home';
+import Contact from 'pages/Contact';
+import PaginaBase from 'pages/PaginaBase';
+import Products from 'pages/Products';
 
 
 export default function AppRoutes() {
@@ -13,7 +13,7 @@ export default function AppRoutes() {
             <Routes>
                 <Route path='/' element={<PaginaBase/>}>
                     <Route index element={<Home />}></Route>
-                    <Route path='produtos' element={<Product />}></Route>
+                    <Route path='produtos' element={<Products />}></Route>
                     <Route path='contato' element={<Contact />}></Route>
                 </Route>
             </Routes>

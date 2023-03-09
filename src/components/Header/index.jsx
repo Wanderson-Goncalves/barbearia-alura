@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from './logo.png';
 import styles from './Hearder.module.css';
-import Nav from 'components/Nav/nav';
+import Nav from 'components/Nav';
 
 export default function Header() {
     return (

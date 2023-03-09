@@ -1,5 +1,5 @@
 
-import Formulario from 'components/Formulario/formulario';
+import Formulario from 'components/Formulario';
 import React from 'react';
 
 export default function Contact() {

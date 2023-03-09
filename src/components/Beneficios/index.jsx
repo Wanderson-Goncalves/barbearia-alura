@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Beneficios.module.css';
 import beneficios from "./beneficios.jpg";
-import TituloPrincipal from 'components/TituloPrincipal/tituloPrincipal';
+import TituloPrincipal from 'components/TituloPrincipal';
 
 export default function Beneficios() {
     return (
